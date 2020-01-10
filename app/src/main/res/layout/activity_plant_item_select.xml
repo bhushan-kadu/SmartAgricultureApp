@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_margin="10dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PlantItemSelect">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gahu"/>
+    <Button
+        android:layout_margin="10dp"
+        android:tag="gehu"
+        android:onClick="showInfo"
+        android:id="@+id/btnGehu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Gahu"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/soyabin"/>
+    <Button
+        android:layout_margin="10dp"
+        android:tag="soya"
+        android:id="@+id/btnSoya"
+        android:onClick="showInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Soysbean"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/toor"/>
+    <Button
+        android:layout_margin="10dp"
+        android:tag="toor"
+        android:onClick="showInfo"
+        android:id="@+id/btnToor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="toor"/>
+
+
+</LinearLayout>
+</ScrollView>
